@@ -1,0 +1,13 @@
+tensorrt_inference:
+  ros__parameters:
+    device_id: 0
+    image_topic: /camera/image_raw
+    result_topic: /inference/results
+    max_image_bytes: 6220800
+    warmup_iterations: 20
+    scale: 0.00392156862745098
+    mean: [0.0, 0.0, 0.0]
+    stddev: [1.0, 1.0, 1.0]
+    output_mode: both
+    top_k: 3
+    apply_softmax: false

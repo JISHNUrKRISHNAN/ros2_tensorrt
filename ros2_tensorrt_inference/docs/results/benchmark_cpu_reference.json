@@ -1,0 +1,39 @@
+{
+  "topic": "/inference/results",
+  "window_seconds": 10.0,
+  "results_received": 377,
+  "delivered_fps": 37.7,
+  "target_fps_strictly_greater_than": 30.0,
+  "required_backend": "cpu_reference",
+  "observed_backends": [
+    "cpu_reference"
+  ],
+  "measurement_completed": true,
+  "queue_ms": {
+    "p50": 0.0,
+    "p95": 0.0,
+    "p99": 0.0
+  },
+  "processing_ms": {
+    "p50": 9.269663001759909,
+    "p95": 17.058776595513333,
+    "p99": 19.883880726411007
+  },
+  "gpu_pipeline_ms": {
+    "p50": 0.0,
+    "p95": 0.0,
+    "p99": 0.0
+  },
+  "receipt_to_result_ms": {
+    "p50": 9.269663001759909,
+    "p95": 17.058776595513333,
+    "p99": 19.883880726411007
+  },
+  "counters_between_first_and_last_sample": {
+    "received_total": 376,
+    "overwritten_total": 0,
+    "invalid_total": 0
+  },
+  "result_sequence_gaps": 0,
+  "passed": true
+}
